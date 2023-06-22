@@ -2,6 +2,7 @@ import {Title, TitleLogo, TitleSm} from "@/components/common/Title";
 import {home} from "@/assets/data/dummydata";
 import Expertise from "@/components/Expertise";
 import Banner from "@/components/Banner";
+import Testimonial from "@/components/Testimonial";
 
 const Hero = () => {
     return (
@@ -39,6 +40,7 @@ const Hero = () => {
             </div>
             <Expertise/>
             <Banner/>
+            <Testimonial/>
         </>
     );
 };

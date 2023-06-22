@@ -4,6 +4,8 @@ import Expertise from "@/components/Expertise";
 import Banner from "@/components/Banner";
 import Testimonial from "@/components/Testimonial";
 import ShowCase from "@/components/ShowCase";
+import Brand from "@/components/Brand";
+import BlogCard from "@/components/BlogCard";
 
 const Hero = () => {
     return (
@@ -43,6 +45,11 @@ const Hero = () => {
             <Banner/>
             <Testimonial/>
             <ShowCase/>
+            <Brand/>
+            <div className='text-center'>
+                <Title title='Latest news & articles'/>
+            </div>
+            <BlogCard/>
         </>
     );
 };

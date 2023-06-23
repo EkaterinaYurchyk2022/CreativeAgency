@@ -26,7 +26,7 @@ const Header = () => {
                     </div>
                     <nav className={open ? 'openMenu' : 'closeMenu'} onClick={() => setOpen(null)}>
                         <Link href='/' className={activeLink === '/' ? 'activeLink' : 'none'}>Home</Link>
-                        <Link href='/' className={activeLink === '/agency' ? 'activeLink' : 'none'}>Agency</Link>
+                        <Link href='/agency' className={activeLink === '/agency' ? 'activeLink' : 'none'}>Agency</Link>
                         <Link href='/' className={activeLink === '/team' ? 'activeLink' : 'none'}>Team</Link>
                         <Link href='/' className={activeLink === '/services' ? 'activeLink' : 'none'}>Services</Link>
                         <Link href='/' className={activeLink === '/showcase' ? 'activeLink' : 'none'}>Show case</Link>
